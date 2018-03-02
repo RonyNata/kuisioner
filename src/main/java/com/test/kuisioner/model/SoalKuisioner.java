@@ -14,7 +14,7 @@ public class SoalKuisioner {
 
     private String soal;
 
-    @OneToMany(mappedBy = "kuisionerPesertaId")
+    @OneToMany(mappedBy = "soalKuisioner")
     private List<KuisionerPeserta> kuisionerPeserta;
 
     public int getIdSoal() {

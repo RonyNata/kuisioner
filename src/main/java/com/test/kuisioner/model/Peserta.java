@@ -15,7 +15,7 @@ public class Peserta {
     @Column(name = "nama_peserta")
     private String namaPeserta;
 
-    @OneToMany(mappedBy = "kuisionerPesertaId")
+    @OneToMany(mappedBy = "peserta")
     private List<KuisionerPeserta> kuisionerPeserta;
 
     private String email;
