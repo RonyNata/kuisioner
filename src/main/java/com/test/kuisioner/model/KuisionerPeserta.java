@@ -8,6 +8,16 @@ public class KuisionerPeserta {
     @EmbeddedId
     private KuisionerPesertaId kuisionerPesertaId;
 
+    private short nilai;
+
+    public short getNilai() {
+        return nilai;
+    }
+
+    public void setNilai(short nilai) {
+        this.nilai = nilai;
+    }
+
     public KuisionerPesertaId getKuisionerPesertaId() {
         return kuisionerPesertaId;
     }
