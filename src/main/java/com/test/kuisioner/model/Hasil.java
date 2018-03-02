@@ -3,10 +3,11 @@ package com.test.kuisioner.model;
 import com.test.kuisioner.model.enumeration.KepuasanEnum;
 
 import javax.persistence.*;
+import java.io.Serializable;
 
 @Entity
 @Table(name = "hasil")
-public class Hasil {
+public class Hasil implements Serializable {
 
     @Id
     @OneToOne
